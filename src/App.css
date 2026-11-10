@@ -1,0 +1,59 @@
+
+body {
+  background-color: #f5f1eb;
+  font-family: Arial, sans-serif;
+}
+
+.heading h1 {
+  color: #702d3d;
+  font-weight: bold;
+}
+
+.heading p {
+  color: #777;
+}
+
+.member-card {
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.member-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 15px;
+}
+
+.member-card h4 {
+  color: #333;
+}
+
+.member-card h6 {
+  color: #702d3d;
+}
+
+.member-card p {
+  color: #777;
+  font-size: 14px;
+}
+
+.member-btn {
+  background-color: #702d3d;
+  color: white;
+  width: 120px;
+  margin: auto;
+}
+
+.member-btn:hover {
+  background-color: #51202d;
+  color: white;
+}
