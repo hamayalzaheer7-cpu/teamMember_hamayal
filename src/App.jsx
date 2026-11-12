@@ -4,7 +4,6 @@ import "./App.css";
 // Import team pictures with correct .jpg extensions
 import imgA from "./image/a.jpg";
 import imgB from "./image/b.jpg";
-import imgC from "./image/c.jpg";
 import imgD from "./image/d.jpg";
 
 function App() {

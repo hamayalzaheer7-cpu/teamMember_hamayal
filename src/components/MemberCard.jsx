@@ -14,7 +14,7 @@ function MemberCard(props) {
         <h6>{props.role}</h6>
         <p>{props.description}</p>
 
-        <button className="btn btn-sm member-btn">
+        <button className="btn btn-md member-btn">
           View Profile
         </button>
 
