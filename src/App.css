@@ -1,59 +1,55 @@
 
 body {
-  background-color: #f5f1eb;
-  font-family: Arial, sans-serif;
+  background-color: rgb(224, 222, 222);
+  font-family:'Times New Roman', Times, serif;
 }
 
 .heading h1 {
-  color: #702d3d;
+  color: maroon;
   font-weight: bold;
 }
 
 .heading p {
-  color: #777;
+  color: gray;
 }
 
 .member-card {
-  border: none;
-  border-radius: 12px;
   background-color: white;
   transition: 0.3s;
 }
 
 .member-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
 }
 
 .member-img {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  object-fit: cover;
   margin: 0 auto 15px;
 }
 
 .member-card h4 {
-  color: #333;
+  color: black;
 }
 
 .member-card h6 {
-  color: #702d3d;
+  color: maroon;
 }
 
 .member-card p {
-  color: #777;
+  color: gray;
   font-size: 14px;
 }
 
 .member-btn {
-  background-color: #702d3d;
+  background-color: maroon;
   color: white;
   width: 120px;
   margin: auto;
 }
 
 .member-btn:hover {
-  background-color: #51202d;
+  background-color: rgb(147, 65, 65);
   color: white;
 }
